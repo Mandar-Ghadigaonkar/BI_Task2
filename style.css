@@ -1,0 +1,105 @@
+body{
+    
+    background-color: rgba(51, 147, 142, 0.974);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position:center;
+    background-size: cover;
+   
+    
+}
+ 
+
+
+
+ .container{
+     max-width: 450px;
+    
+    background-color: aqua;
+    padding: 20px;
+    
+    margin-left: auto;
+    margin-right: auto; 
+    
+    margin-bottom: auto;
+    margin-top: 142px; 
+    box-shadow: 0px 0px 20px 25px rgba(121, 186, 185, 0.8);
+    border-radius: 35px;
+  
+     
+}
+
+.title{
+    color: black;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    position:relative;
+    text-align: center;
+    justify-content:center;
+    
+    
+}
+
+.icon-temp{
+    font: 45px;
+    color: white;
+
+}
+
+
+#Celsius, #Fahrenheit, #Kelvin{
+    display: flex;
+    border-radius: 10px;
+}
+.ss{
+    display: flex;
+    width: 150%;
+    height: 30px;
+    padding: 20px 9px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius:8px 0 0 8px;
+    
+    border: 2px solid;
+    outline: none;
+}
+
+.icon{
+    flex: 1;
+    height: 72px;
+    line-height: 68px;
+    margin-top: 10px;
+    padding: 0 15px;
+    text-align:center;
+    font-size: 30px;
+    background: rgb(38, 87, 87);
+    color: white;
+    border-radius: 0  8px 8px 0;
+    gap: 20px;
+
+}
+
+.button{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.button button:hover{
+    background: black;
+    color: white;
+    box-shadow: 0px 0px 20px 25px rgba(6, 6, 6, 0.8);
+
+}
